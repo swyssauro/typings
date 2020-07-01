@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800&display=swap');
+
+:root {
+  --main-icon-folder: #a56de2;
+}
 
 body {
   margin: 0;
@@ -7,8 +12,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-family: Roboto Mono;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6rem;
+}
+
+:focus {
+  outline: none;
 }
 
 *[onclick] {
@@ -67,6 +76,13 @@ body {
 .theme-button:hover{
   cursor: pointer;
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.2);
+}
+
+/* svg-icon-reply */
+
+.bar #redo-button .svg-button {
+  width: 15px;
+  padding: 1px 1rem;
 }
 
 /* #left-wing {} */
